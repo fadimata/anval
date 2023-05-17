@@ -15,90 +15,99 @@
 
 
 
-    <aside id="separator-sidebar"
-        class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
-        aria-label="Sidebar">
-        <div class="h-full px-3 py-4 overflow-y-auto bg-white">
-            <img class=" mr-2" src="./inval.png" alt="logo">
-            <ul class="space-y-2 font-medium">
-                <li>
-                    <a href="Dashboard.html"
-                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+    <aside
+      id="separator-sidebar"
+      class="fixed top-0 left-0 z-40 lg:w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
+      aria-label="Sidebar"
+    >
+      <div class="h-full px-3 py-4 overflow-y-auto bg-white">
+        <img class="mr-2 lg:block hidden" src="./inval.png" alt="logo" />
+        <ul class="space-y-2 font-medium mt-10 lg:mt-0">
+          <li>
+            <a
+              href="Dashboard.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white dark:hover:bg-gray-700"
+              
+            >
+              <span class="material-symbols-outlined"> grid_view </span>
 
-                        <span class="material-symbols-outlined">
-                            grid_view
-                        </span>
-
-                        <span class="flex-1 ml-3 whitespace-nowrap">Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href=" facture.html"
-                        class="flex items-center p-2 text-gray-900 rounded-lg  dark:text-white  dark:hover:bg-gray-700"  style="background-color: #4A95A6;">
-
-                        <span class="material-symbols-outlined">
-                            directions_car
-                        </span>
-                        <span class="flex-1 ml-3 whitespace-nowrap">Facture</span>
-
-                    </a>
-                </li>
-                <li>
-                    <a href="commande.html"
-                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-
-                        <span class="material-symbols-outlined">
-                            directions_car
-                        </span>
-                        <span class="flex-1 ml-3 whitespace-nowrap">Commande</span>
-
-                    </a>
-                </li>
-                <li>
-                    <a href="suivi.html"
-                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <span class="material-symbols-outlined">
-                            cases
-                        </span>
-                        <span class="flex-1 ml-3 whitespace-nowrap">Suivi</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="Service.html"
-                        class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <span class="material-symbols-outlined">
-                            chat
-                        </span>
-                        <span class="flex-1 ml-3 whitespace-nowrap">Service Client</span>
-                    </a>
-                </li>
-
-            </ul>
-            <div id="toast-bottom-left" class="fixed flex  text-gray-500  bottom-5 left-5 " role="alert">
-                <ul class="pt-4 mt-4 space-y-2 font-medium ">
-
-                    <li>
-                        <a href="#"
-                            class="flex items-center p-2 text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
-                            <span class="material-symbols-outlined">
-                                settings
-                            </span>
-                            <span class="ml-3">Paramètre Compte</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="enval.html"
-                            class="flex items-center p-2 text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
-                            <span class="material-symbols-outlined">
-                                keyboard_tab_rtl
-                            </span>
-                            <span class="ml-3">Déconnexion</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
+              <span class="flex-1 ml-3 whitespace-nowrap lg:block hidden">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href=" facture.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+              style="background-color: #4a95a6">
+              <span class="material-symbols-outlined"> account_circle </span>
+              <span class="flex-1 ml-3 whitespace-nowrap lg:block hidden"
+                >Facture</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="commande.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <span class="material-symbols-outlined"> directions_car </span>
+              <span class="flex-1 ml-3 whitespace-nowrap lg:block hidden"
+                >Commande</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="suivi.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <span class="material-symbols-outlined"> cases </span>
+              <span class="flex-1 ml-3 whitespace-nowrap lg:block hidden"
+                >Suivi</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="Service.html"
+              class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
+            >
+              <span class="material-symbols-outlined"> chat </span>
+              <span class="flex-1 ml-3 whitespace-nowrap lg:block hidden"
+                >Service Client</span
+              >
+            </a>
+          </li>
+        </ul>
+        <div
+          id="toast-bottom-left"
+          class="fixed flex text-gray-500 bottom-5 left-5"
+          role="alert"
+        >
+          <ul class="pt-4 mt-4 space-y-2 font-medium">
+            <li>
+              <a
+                href="#"
+                class="flex items-center p-2 text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
+              >
+                <span class="material-symbols-outlined"> settings </span>
+                <span class="ml-3 lg:block hidden">Paramètre Compte</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="enval.html"
+                class="flex items-center p-2 text-gray-900 transition duration-75 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
+              >
+                <span class="material-symbols-outlined">
+                  keyboard_tab_rtl
+                </span>
+                <span class="ml-3 lg:block hidden">Déconnexion</span>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </aside>
 
 
@@ -146,7 +155,7 @@
                     </div>
             </div>
             </form>
-            <div class="relative overflow-x-auto">
+            <div class="overflow-x-auto">
                 <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400" style="height: 56rem;">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <t r style="text-align: center; ">
